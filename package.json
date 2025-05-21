@@ -1,0 +1,28 @@
+{
+  "name": "node-flow-editor",
+  "version": "1.0.0",
+  "description": "A Vue.js application for creating node-based flows",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "node-editor",
+    "flow-editor",
+    "drag-and-drop"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "pinia": "^2.0.0",
+    "uuid": "^9.0.1",
+    "vite": "^3.0.0",
+    "vue": "^3.2.0",
+    "vuedraggable": "^4.1.0"
+  }
+}
